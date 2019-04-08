@@ -7,11 +7,9 @@ import { AirPlaneListComponent } from './airplane-list/airplane-list.component';
 import { AirPlaneFormAlterComponent } from './airplane-form-alter/airplane-form-alter.component';
 import { AppRoutingModule } from '../app.routing.module';
 
-//removi o providers coloquei no app pra servir aplicacao inteira
 @NgModule({
     declarations: [ AirPlaneFormComponent,  AirPlaneListComponent, AirPlaneFormAlterComponent ],
     exports: [ AirPlaneFormComponent, AirPlaneListComponent, AirPlaneFormAlterComponent],
-    imports: [ CommonModule, CommonModule, AppRoutingModule, FormsModule, ReactiveFormsModule ],
-  
+    imports: [ CommonModule, CommonModule, AppRoutingModule, FormsModule, ReactiveFormsModule ]
 })
 export class AirPlaneModule { }

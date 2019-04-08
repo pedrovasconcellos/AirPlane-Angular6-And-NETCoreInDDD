@@ -15,9 +15,9 @@ export class AirPlaneListComponent implements OnInit {
 
   webAPI = 'https://airplanedemo.azurewebsites.net/v1/AirPlane/';
 
-  @Input() id: string = "";
+  @Input() id: string;
 
-  @Input() searchValue: string;//aqui é aonde o campo busca usa
+  @Input() searchValue: string;
 
   constructor(private airPlaneService: AirplaneService, private activatedRoute: ActivatedRoute, private router: Router) { }
 
@@ -27,16 +27,16 @@ export class AirPlaneListComponent implements OnInit {
     this.airPlaneService
       .ListAirPlanes(modelName)
       .subscribe(
-        data => { this.airPlanes = data; console.log(data) },
+        data => { this.airPlanes = data; console.log(data); },
         err => console.log(err)
       );
   }
 
   onUpdateItem(airplane) {
-    this.router.navigate(['/', 'airplane', 'alter', airplane.id])
+    this.router.navigate(['/', 'airplane', 'alter', airplane.id]);
   }
 
   onDeleteItem(airplane) {
-    console.log('Deleting airplane: ', airplane)
+    console.log('Deleting airplane: ', airplane);
   }
 }

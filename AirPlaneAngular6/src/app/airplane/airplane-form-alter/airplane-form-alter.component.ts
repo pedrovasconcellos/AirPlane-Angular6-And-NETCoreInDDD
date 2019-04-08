@@ -22,17 +22,14 @@ export class AirPlaneFormAlterComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      // Airplane ID
-      this.id = params.id
-
-      // Current airplane
+      this.id = params.id;
       this.airPlaneService.getAirplane(this.id).subscribe(response => {
         console.log(response);
-      })
-    })
+      });
+    });
 
     this.airPlaneService
-      .ListAirPlaneModels("")
+      .ListAirPlaneModels('')
       .subscribe(
         data => {
           this.airPlaneModels = data;
@@ -42,13 +39,13 @@ export class AirPlaneFormAlterComponent implements OnInit {
       );
   }
 
-  onSubmit(form) { //funcao disparada com submit
-    this.airPlane = form.value;//valor do campos do form
+  onSubmit(form) {
+    this.airPlane = form.value;
     console.log(this.airPlane);
     this.airPlaneService.PutAirPlane(this.id, this.airPlane)
-      .subscribe(response => { //chama sua funcao de post do seu servico
-        this.router.navigateByUrl('/'); //------->  descomente para voltar pra sua home
-        return console.log(response) //mostra response, e vc pode abrir modal pop de resposta pro usuario.
-      })
+      .subscribe(response => {
+        this.router.navigateByUrl('/');
+        return console.log(response);
+      });
   }
 }

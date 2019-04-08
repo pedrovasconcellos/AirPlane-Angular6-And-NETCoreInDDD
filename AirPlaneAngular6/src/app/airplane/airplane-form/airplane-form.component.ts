@@ -23,7 +23,7 @@ export class AirPlaneFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.airPlaneService
-      .ListAirPlaneModels("")
+      .ListAirPlaneModels('')
       .subscribe(
         data => {
           this.airPlaneModels = data;
@@ -34,12 +34,12 @@ export class AirPlaneFormComponent implements OnInit {
       );
   }
 
-  onSubmit(form){ //funcao disparada com submit
-    this.airPlane = form.value;//valor do campos do form
+  onSubmit(form) {
+    this.airPlane = form.value;
     console.log(this.airPlane);
-    this.airPlaneService.PostAirPlane(this.airPlane).subscribe(r =>{ //chama sua funcao de post do seu servico  
-    this.router.navigateByUrl('/'); // descomente para voltar pra sua home
-    return console.log(r) //mostra response, e vc pode abrir modal pop de resposta pro usuario.
-   })
+    this.airPlaneService.PostAirPlane(this.airPlane).subscribe(r => {
+    this.router.navigateByUrl('/');
+    return console.log(r);
+   });
   }
 }
