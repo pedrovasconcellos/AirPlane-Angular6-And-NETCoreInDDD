@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AirPlaneDDD.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:AirPlane.WebAPI.Controllers.AirPlaneController.GetAirPlane(System.String,System.String,System.Nullable{System.Int16},System.Nullable{System.DateTime})">
+            <summary>
+            Get AirPlane
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:AirPlane.WebAPI.Controllers.AirPlaneController.GetAirPlanes(System.String)">
+            <summary>
+            Get AirPlane
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:AirPlane.WebAPI.Controllers.AirPlaneController.CreateAirPlane(AirPlaneDDD.WebAPI.Models.AirPlaneAddModel)">
+            <summary>
+            Create AirPlane
+            </summary> 
+            <response code="201">Created</response>
+            <response code="400">Bad Request</response>
+            <response code="422">Unprocessable Entity</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:AirPlane.WebAPI.Controllers.AirPlaneController.UpdateAirPlane(System.String,AirPlaneDDD.WebAPI.Models.AirPlaneAlterModel)">
+            <summary>
+            Update AirPlane
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="422">Unprocessable Entity</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:AirPlane.WebAPI.Controllers.AirPlaneController.RemoveAirPlane(System.String)">
+            <summary>
+            Remove AirPlane
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="422">Unprocessable Entity</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:AirPlaneDDD.WebAPI.Controllers.AirPlaneModelController.GetAirPlaneModel">
+            <summary>
+            Get AirPlaneModel
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:AirPlaneDDD.WebAPI.Controllers.AirPlaneModelController.GetAirPlaneModels(System.String)">
+            <summary>
+            Get AirPlaneModel
+            </summary> 
+            <response code="200">Ok</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:AirPlaneDDD.WebAPI.Models.ErrorModel">
+            <summary>
+            Error
+            </summary>
+            <remarks>
+            Entidade de resposta de todos os erros de solicitações realizadas na WebAPI.
+            </remarks>
+        </member>
+        <member name="M:AirPlaneDDD.WebAPI.Models.ErrorModel.#ctor(System.Int16,System.String,System.String)">
+            <summary>
+            Error
+            </summary>
+            <remarks>
+            Construtor da Entidade Error que descreve os erros gerados na WebAPI.
+            </remarks>
+        </member>
+        <member name="P:AirPlaneDDD.WebAPI.Models.ErrorModel.ErrorCode">
+            <summary>
+            ErrorCode
+            </summary>
+            <remarks>
+            Código ou ordem do erro gerado.
+            </remarks>
+        </member>
+        <member name="P:AirPlaneDDD.WebAPI.Models.ErrorModel.Parameter">
+            <summary>
+            Parameter
+            </summary>
+            <remarks>
+            Parâmetro ou campo causador do erro.
+            </remarks>
+        </member>
+        <member name="P:AirPlaneDDD.WebAPI.Models.ErrorModel.Message">
+            <summary>
+            Message
+            </summary>
+            <remarks>
+            Mensagem do erro.
+            </remarks>
+        </member>
+        <member name="M:AirPlaneDDD.WebAPI.Models.ErrorModel.ToList">
+            <summary>
+            ToList
+            </summary>
+            <remarks>
+            Cria a lista de Erros usando o própio objeto.
+            </remarks>
+        </member>
+    </members>
+</doc>

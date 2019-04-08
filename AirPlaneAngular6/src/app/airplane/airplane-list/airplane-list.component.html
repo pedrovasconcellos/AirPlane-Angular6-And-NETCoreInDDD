@@ -1,0 +1,36 @@
+<div class="form-inline">
+  <input class="form-control mr-sm-2" type="search" placeholder="Nome do Modelo" aria-label="Pesquisar"
+    [(ngModel)]="searchValue">
+  <button class="btn btn-outline-light my-2 my-sm-0" type="input" routerLink="/list/{{searchValue}}">Pesquisar</button>
+</div>
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Codigo</th>
+      <th scope="col">Modelo</th>
+      <th scope="col">Passageiros</th>
+      <th scope="col">Cadastro</th>
+      <th scope="col">Editar</th>
+      <th scope="col">Deletar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of airPlanes; let i = index" [attr.data-index]="i">
+      <td scope="row">{{i+1}}</td>
+      <td>{{item.code}}</td>
+      <td>{{item.model.name}}</td>
+      <td>{{item.numberOfPassengers}}</td>
+      <td>{{item.creationDate | date: 'dd/MM/yyyy'}}</td>
+      <td>
+        <button [attr.href]="item.id" type="button" class="btn btn-info" (click)="onUpdateItem(item)">
+          Edit
+        </button>
+      </td>
+      <td>
+        <button [attr.href]="item.id" type="button" class="btn btn-danger" (click)="onDeleteItem(item)">Del
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

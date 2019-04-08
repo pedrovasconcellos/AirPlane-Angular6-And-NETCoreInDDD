@@ -1,0 +1,38 @@
+<form class="formdistance container" #f="ngForm" (ngSubmit)="onSubmit(f)"><!--sua refenrecia do form com o codigo-->
+  <h1 class="textwhite h1distance center">Edição</h1>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputCode" class="textwhite">Código</label>
+      <input type="text" class="form-control" id="inputCode" 
+      placeholder="Código" maxlength="10" ngModel name="code"><!--cada campo tem que ter ngmodel e name-->
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputNumberOfPassengers" class="textwhite">Passageiros</label>
+      <input type="number" class="form-control" 
+      id="inputNumberOfPassengers" 
+      placeholder="Número de passageiros" 
+      min="1" max="300" ngModel name="numberOfPassengers"  number-only> <!--cada campo tem que ter ngmodel e name-->
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+        <select class="form-control btn btn-info dropdown-toggle" 
+        id="inputModel" type="select" data-toggle="dropdown" 
+        placeholder="Modelos" ngModel name="model.id"> <!--cada campo tem que ter ngmodel e name-->
+            <option selected="selected" value="0">
+                Modelo não informado
+              </option>
+              <option *ngFor= "let item of airPlaneModels" [value]="item.id">
+                  {{item.name}}
+              </option>
+        </select>   
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+        <button type="submit" class="btn btn-info">Editar</button>
+    </div>
+  </div>
+</form>  

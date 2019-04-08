@@ -1,0 +1,9 @@
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\bin\Debug\netcoreapp2.1\AirPlaneDDD.Domain.deps.json
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\bin\Debug\netcoreapp2.1\AirPlaneDDD.Domain.dll
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\bin\Debug\netcoreapp2.1\AirPlaneDDD.Domain.pdb
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\obj\Debug\netcoreapp2.1\AirPlaneDDD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\obj\Debug\netcoreapp2.1\AirPlaneDDD.Domain.AssemblyInfoInputs.cache
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\obj\Debug\netcoreapp2.1\AirPlaneDDD.Domain.AssemblyInfo.cs
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\obj\Debug\netcoreapp2.1\AirPlaneDDD.Domain.dll
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\obj\Debug\netcoreapp2.1\AirPlaneDDD.Domain.pdb
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Domain\obj\Debug\netcoreapp2.1\AirPlaneDDD.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.WebAPI\\AirPlaneDDD.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Application\\AirPlaneDDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Application\\AirPlaneDDD.Application.csproj",
+        "projectName": "AirPlaneDDD.Application",
+        "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Application\\AirPlaneDDD.Application.csproj",
+        "packagesPath": "C:\\Users\\Vasconcellos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vasconcellos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj",
+        "projectName": "AirPlaneDDD.Domain",
+        "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj",
+        "packagesPath": "C:\\Users\\Vasconcellos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vasconcellos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Infra\\AirPlaneDDD.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Infra\\AirPlaneDDD.Infra.csproj",
+        "projectName": "AirPlaneDDD.Infra",
+        "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Infra\\AirPlaneDDD.Infra.csproj",
+        "packagesPath": "C:\\Users\\Vasconcellos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vasconcellos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.WebAPI\\AirPlaneDDD.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.WebAPI\\AirPlaneDDD.WebAPI.csproj",
+        "projectName": "AirPlaneDDD.WebAPI",
+        "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.WebAPI\\AirPlaneDDD.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Vasconcellos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vasconcellos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Application\\AirPlaneDDD.Application.csproj": {
+                "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Application\\AirPlaneDDD.Application.csproj"
+              },
+              "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Domain\\AirPlaneDDD.Domain.csproj"
+              },
+              "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Infra\\AirPlaneDDD.Infra.csproj": {
+                "projectPath": "C:\\Users\\Vasconcellos\\source\\repos\\AirPlaneDDD\\AirPlaneDDD.Infra\\AirPlaneDDD.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.SwaggerConfigurationExtension": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\bin\Debug\netcoreapp2.1\AirPlaneDDD.Infra.deps.json
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\bin\Debug\netcoreapp2.1\AirPlaneDDD.Infra.dll
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\bin\Debug\netcoreapp2.1\AirPlaneDDD.Infra.pdb
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\bin\Debug\netcoreapp2.1\AirPlaneDDD.Domain.dll
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\bin\Debug\netcoreapp2.1\AirPlaneDDD.Domain.pdb
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\obj\Debug\netcoreapp2.1\AirPlaneDDD.Infra.csprojAssemblyReference.cache
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\obj\Debug\netcoreapp2.1\AirPlaneDDD.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\obj\Debug\netcoreapp2.1\AirPlaneDDD.Infra.AssemblyInfoInputs.cache
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\obj\Debug\netcoreapp2.1\AirPlaneDDD.Infra.AssemblyInfo.cs
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\obj\Debug\netcoreapp2.1\AirPlaneDDD.Infra.csproj.CopyComplete
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\obj\Debug\netcoreapp2.1\AirPlaneDDD.Infra.dll
+C:\Users\Vasconcellos\source\repos\AirPlaneDDD\AirPlaneDDD.Infra\obj\Debug\netcoreapp2.1\AirPlaneDDD.Infra.pdb
