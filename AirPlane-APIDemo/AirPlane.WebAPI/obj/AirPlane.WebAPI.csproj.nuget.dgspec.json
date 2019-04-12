@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Vasconcellos\\AirPlane-APIDemo\\AirPlane.WebAPI\\AirPlane.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Vasconcellos\\AirPlane-APIDemo\\AirPlane.WebAPI\\AirPlane.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Vasconcellos\\AirPlane-APIDemo\\AirPlane.WebAPI\\AirPlane.WebAPI.csproj",
+        "projectName": "AirPlane.WebAPI",
+        "projectPath": "C:\\Vasconcellos\\AirPlane-APIDemo\\AirPlane.WebAPI\\AirPlane.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Vasconcellos\\AirPlane-APIDemo\\AirPlane.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.0.60/Repom.Nuget.Server/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.SwaggerConfigurationExtension": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
